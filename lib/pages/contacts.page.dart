@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class ContactsPage extends StatelessWidget {
   final List<Map<String, String>> contacts = [
     {
-      'name': 'Othmane Boudali',
-      'email': 'othmane.boudali01@gmail.com',
-      'phone': '+212 0695282305'
+      'name': 'Achraf Ansari',
+      'email': 'achrafans3434@gmail.com',
+      'phone': '+212 676759479'
     },
     {
       'name': 'Kylian Mbappe.',
@@ -59,7 +59,7 @@ class ContactsPage extends StatelessWidget {
             margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
             child: ListTile(
               leading: CircleAvatar(
-                backgroundColor: Colors.deepOrange,
+                backgroundColor: Colors.blue,
                 child: Text(
                   initials,
                   style: const TextStyle(color: Colors.white),

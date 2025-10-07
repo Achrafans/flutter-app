@@ -2,12 +2,12 @@ import 'package:first_app/widgets/custom.drawer.widget.dart';
 import 'package:flutter/material.dart';
 class GalleryPage extends StatelessWidget {
   final List<String> imagePaths = [
-    'images/giulietta1.jpeg',
-    'images/giulietta2.jpeg',
-    'images/giulietta3.jpeg',
-    'images/giulietta4.jpeg',
-    'images/giulietta5.jpeg',
-    'images/giulietta6.jpeg',
+    'images/cmax.jpg',
+    'images/cmax2.jpg',
+    'images/cmax3.jpg',
+    'images/cmax4.jpg',
+    'images/cmax5.jpg',
+    'images/cmax6.jpg',
   ];
   GalleryPage({super.key});
 
@@ -58,7 +58,7 @@ class FullScreenImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.blue,
       appBar: AppBar(backgroundColor: Colors.black),
       body: Center(
         child: Hero(

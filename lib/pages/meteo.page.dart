@@ -21,7 +21,7 @@ class _MeteoPageState extends State<MeteoPage> {
 
   Future<void> fetchWeather() async {
     final apiKey = kIsWeb ? '' : dotenv.env['OPENWEATHER_API_KEY'];
-    print("🔑 API key from .env: $apiKey");
+    print("API key from .env: $apiKey");
 
 
 
@@ -43,7 +43,7 @@ class _MeteoPageState extends State<MeteoPage> {
         forecast = data["list"];
       });
     } catch (e) {
-      print("❌ Error fetching weather: $e");
+      print("Error fetching weather: $e");
     }
   }
 
@@ -112,7 +112,7 @@ class _MeteoPageState extends State<MeteoPage> {
                 final desc = item["weather"][0]["description"];
 
                 return Card(
-                  color: Colors.deepOrangeAccent,
+                  color: Colors.blue,
                   child: ListTile(
                     leading: BoxedIcon(
                       _getWeatherIcon(icon),

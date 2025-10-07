@@ -22,7 +22,7 @@ class MyCustomDrawer extends StatelessWidget {
            ),
             Divider(
               height: 1,
-              color: Theme.of(context).primaryColor,
+              color: Colors.blue,
             ),
             MyDrawerItem(
               title: "Counter",
@@ -34,7 +34,7 @@ class MyCustomDrawer extends StatelessWidget {
             ),
             Divider(
               height: 1,
-              color: Theme.of(context).primaryColor,
+              color: Colors.blue,
             ),
             MyDrawerItem(
               title: "Chat",
@@ -46,7 +46,7 @@ class MyCustomDrawer extends StatelessWidget {
             ),
             Divider(
               height: 1,
-              color: Theme.of(context).primaryColor,
+              color: Colors.blue,
             ),
             MyDrawerItem(
               title: "Contacts",
@@ -58,7 +58,7 @@ class MyCustomDrawer extends StatelessWidget {
             ),
             Divider(
               height: 1,
-              color: Theme.of(context).primaryColor,
+              color: Colors.blue,
             ),
 
             MyDrawerItem(
@@ -72,7 +72,7 @@ class MyCustomDrawer extends StatelessWidget {
 
             Divider(
               height: 1,
-              color: Theme.of(context).primaryColor,
+              color: Colors.blue,
             ),
 
             MyDrawerItem(

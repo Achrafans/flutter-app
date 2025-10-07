@@ -8,7 +8,7 @@ class ChatPage extends StatelessWidget {
       appBar: AppBar(
 
         title: Text("Chat", style: TextStyle(color: Theme.of(context).indicatorColor),),
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Colors.blue,
       ),
       body: Center(
         child: Text("Chat Page"),

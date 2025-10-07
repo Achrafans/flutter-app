@@ -16,7 +16,7 @@ class _CounterPageState extends State<CounterPage> {
       appBar: AppBar(
 
         title: Text("Counter", style: TextStyle(color: Theme.of(context).indicatorColor),),
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Colors.blue,
       ),
       body: Center(
         child: Text("Counter Value => $counter", style: Theme.of(context).textTheme.bodyLarge,),
